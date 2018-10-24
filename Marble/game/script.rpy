@@ -13,29 +13,52 @@ define m = Character("Mark")
 
 label start:
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     scene bg room
-
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
 
     show eileen happy
 
-    # These display lines of dialogue.
 
-    k "You're Late, aren't you mark."
+    k "You're Late."
 
-    "This is pretty unfair."
+    "Damn it."
 
-    "I mean it was the bus was late..."
+    menu:
 
-    k "I think you'll see that you're 10 minutes late."
 
-    k "Again..."
+        "Lie about it.":
+            jump choicea_yes
+
+
+        "Tell the truth.":
+            jump choicea_no
+
+    label choicea_yes:
+
+        $ menu_flag = True
+
+        m "Well... The bus was late"
+
+        k "Not good enough."
+
+        "Does she think i'm god or something? I can't control the buses."
+
+        jump choicea_done
+
+    label choicea_no:
+
+        m "I hurt my ankle while coming out of the house."
+
+        m "It affected my ability to get here on time."
+
+        k "Don't hurt your ankle next time. Then you can get on time"
+
+        "What is her point?"
+
+        jump choicea_done
+
+    label choicea_done:
+
+    k "Whatever."
 
     k "Richard is upstairs. He wants to see you."
 
@@ -43,7 +66,7 @@ label start:
 
     show eileen happy
 
-    "This is by far going to be the most boring day..."
+    "This is great. I'm too tired for this crap."
 
     r "Lets speak in my office, Mark."
 
@@ -52,6 +75,8 @@ label start:
     scene bg roffice
 
     show einleen happy
+
+    # This is just a placeholder right now. Will change when i receive the spites.
 
     "What does he want right now..."
 
@@ -63,7 +88,7 @@ label start:
 
     m "What do you mean i'm not needed here??"
 
-    r "Mark, you don't do any work anymore."
+    r "Mark, you aren't the ideal staff member."
 
     r "We have complaints of customers being shouted at when they ask for help."
 
@@ -73,19 +98,17 @@ label start:
 
     m "I'm sorry but if the customers are prank calling then i should have the right{p}to tell customers to fuck off if they are prank calling"
 
-    r "Calm down."
+    r "That's besides the point."
 
-    m "Hell, they aren't even customers at all, they just find our number in the Yellow pages{p}and think its funny to-"
+    m "Hell, they aren't even customers at all, they just find our number in the Yellow pages or some bullshi-"
 
-    r "Could you shut up for a second"
+    r "Listen to me, Mark."
 
     m "{w}You.{w} Are.{w} An.{w} Idiot.{w} Richard."
 
-    m "Noone likes you at all."
+    m "No one really likes your presence and you're a suffocating whore."
 
-    m "You act like {cps=10} Donald Trump and {cps=5}speak like there's a dick in your mouth every second."
-
-    m "Your presence reminds people of spotify adverts so the best choice for{cps=10} you is to go commit-"
+    m "The best choice you have right now is to go commi-"
 
     r "{size=+100}Leave."
 
@@ -93,19 +116,15 @@ label start:
 
     "What a jerk."
 
-    "I can't even think without his stupid voice bothering me"
+    "I can't even think with his huge forehead in the way."
 
     play sound "Bus_Effect.mp3"
 
-    "Wait WAIT WHAT THE FUCK."
-
-    "Goddamnit i missed the bus."
+    "Shit. Another addition to my day."
 
     "Its one every hour too."
 
-    "Bloody grea-"
-
-    "What the fuck is this?"
+    "Bloody great."
 
     menu:
 
@@ -130,6 +149,62 @@ label start:
         "Thats a bit... off..."
 
         scene bg bus
+
+        "Empty??"
+
+        scene bg seat
+
+        "Uh? A lottery scatch card?"
+
+        "This is..."
+
+        scene bg handwithticket
+
+        "A scatch card??"
+
+        scene bg scatchcard
+
+        "No way?? It's for 3 billion pounds..."
+
+        menu:
+
+            "Take the scatch card.":
+                jump choice2_yes
+
+
+
+            "Don't take the scatch card.":
+                jump choice2_no
+
+        label choice2_yes:
+
+            "This is coming with me, I suppose."
+
+            "I can finally go to japan with this."
+
+            "Seems today is clearing up..."
+
+            scene apartment
+
+            "It's a mess in here."
+
+            "Would be nice if it was cleaner... Too lazy though."
+
+            "Another time."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
