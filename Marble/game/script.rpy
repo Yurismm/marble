@@ -6,6 +6,7 @@
 define k = Character("Karen")
 define r = Character("Richard")
 define m = Character("Mark")
+define i = Character("Irratated lady")
 
 
 
@@ -50,7 +51,7 @@ label start:
 
         m "It affected my ability to get here on time."
 
-        k "Don't hurt your ankle next time. Then you can get on time"
+        k "Don't hurt your ankle next time. Then you can get here on time."
 
         "What is her point?"
 
@@ -184,13 +185,82 @@ label start:
 
             "Seems today is clearing up..."
 
-            scene apartment
+            scene bg apartment
 
             "It's a mess in here."
 
             "Would be nice if it was cleaner... Too lazy though."
 
             "Another time."
+
+            scene afewhourslater
+            with Dissolve(.5)
+            pause .5
+            scene bg airport
+            with Dissolve(.5)
+            scene bg airport
+
+            "Flight 392. I need to remember this."
+
+            "So many people here...It's overwhelming."
+
+            scene blackscreen
+            with vpunch
+
+            m "Crap, Sorry."
+
+            m "I wasn't thinking straight."
+
+
+            scene bg airport
+            show Irratated lady
+
+            i "Well look where you're going next time, It's a pisstake, I have things to do."
+
+            "Damn... She's hot."
+
+            m "Y-Yeah. Sorry."
+
+            menu:
+
+                "Flight 332":
+                    jump question1_a
+
+                "Flight 239":
+                    jump question1_a
+
+                "Flight 392":
+                    jump question1_b
+
+                "Flight 332":
+                    jump question1_a
+
+            label question1_a:
+
+                m "I don't think that was my flight."
+
+                jump question1_done
+
+            label question1_b:
+
+                m "Shit."
+
+                jump question1_done
+
+
+        label question1_done:
+
+        "I'm late, Fuck."
+
+
+
+
+
+
+
+
+
+
 
 
 
