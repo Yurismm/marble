@@ -254,7 +254,8 @@ label start:
 
         scene bg airport2
 
-        
+        dsfbhnusudr h8weirnjwe
+
 
 
 
