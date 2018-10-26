@@ -7,7 +7,7 @@ define k = Character("Karen")
 define r = Character("Richard")
 define m = Character("Mark")
 define i = Character("Irratated lady")
-
+define f = Character("Flight Assistant")
 
 
 
@@ -252,6 +252,89 @@ label start:
         "I'm late, Fuck."
 
         scene bg airport2
+
+        m "Hey, my fligh-"
+
+        f "Are you mark?"
+
+        m "Yes, but my fligh-"
+
+        f "Can I have your autograph??"
+
+        "What??"
+
+        m "I'm sorry but i need to b-"
+
+        f "Please??"
+
+        "Can she stop interrup-"
+
+        f "Come here, give me a hug, Mark!"
+
+        m "This makes me uncomfortabl-"
+
+        scene blackscreen
+        with vpunch
+
+        "I can't breath?"
+
+        "Mfmm"
+
+        "Wait."
+
+        "Am I?"
+
+        "WHAT THE FUCK?"
+
+        scene breastscloseup
+
+        "S"
+
+        "SHIT"
+
+        scene bg airport2
+
+        f "How was that?"
+
+        m " I'M SORRY, BUT YOU JUST BREACHED MY PERSONAL FUCKING SPAC-"
+
+        f "Shhh"
+
+        "I'm leaving, Fuck no."
+
+        scene bg airport3
+
+        "I'm finally here."
+
+        "On time."
+
+        "..."
+
+        "All this running is making me hungry."
+
+        menu:
+
+            "KFC":
+                jump choiceb_a
+
+            "Get on the flight":
+                jump choiceb_b
+
+        label choiceb_a:
+
+            "{i}You can get food on the flight you hungry bastard{/i}"
+
+            jump choiceb_done
+
+        label choiceb_b:
+
+            "Alright. Lets get going."
+
+            jump choiceb_done
+
+        label choiceb_done
+
+
 
 
 
