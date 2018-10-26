@@ -253,7 +253,6 @@ label start:
 
         scene bg airport2
 
-        edited
 
 
 
