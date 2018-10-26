@@ -252,6 +252,12 @@ label start:
 
         "I'm late, Fuck."
 
+        scene bg airport2
+
+        
+
+
+
 
 
 
