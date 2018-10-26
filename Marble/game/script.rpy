@@ -10,7 +10,6 @@ define i = Character("Irratated lady")
 
 
 
-# The game starts here.
 
 label start:
 
@@ -254,7 +253,6 @@ label start:
 
         scene bg airport2
 
-        dsfbhnusudr h8weirnjwe
 
 
 
