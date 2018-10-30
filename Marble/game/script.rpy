@@ -332,15 +332,15 @@ label start:
 
             jump choiceb_done
 
-        label choiceb_done
+        label choiceb_done:
 
-        scene bg plane
+            scene bg plane
 
-        "It's pretty crowded in here..."
+            "It's pretty crowded in here..."
 
-        scene bg back_of_a_seat
+            scene bg back_of_a_seat
 
-        "I should probably listen to some music."
+            "I should probably listen to some music."
 
         menu:
 
@@ -372,15 +372,15 @@ label start:
             # hmmmmmmmm
             jump choice_music_done
 
-        label choice_music_done
+        label choice_music_done:
 
-        "Finally"
+            "Finally"
 
-        "It's a good thing I decided to learn japanese."
+            "It's a good thing I decided to learn japanese."
 
-        scene bg japanese_airport
+            scene bg japanese_airport
 
-        m "こんにちは.{p=0.5}{alpha=.5}Hello/Hi.{/alpha}"
+            m "こんにちは.{p=0.5}{alpha=.5}Hello/Hi.{/alpha}"
 
 
 
