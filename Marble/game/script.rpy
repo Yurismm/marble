@@ -378,6 +378,12 @@ label start:
 
         "It's a good thing I decided to learn japanese."
 
+        scene bg japanese_airport
+
+        m "こんにちは.{p=0.5}{alpha=.5}Hello/Hi.{/alpha}"
+
+
+
 
 
 
