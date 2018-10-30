@@ -1615,4 +1615,22 @@ Texture testing:
 - Hardware max texture size: 16384
 - 64px textures work.
 - 128px textures work.
-- 256px textures 
+- 256px textures work.
+- 512px textures work.
+- 1024px textures work.
+- 2048px textures work.
+Total time until interface ready: 238.960000038s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.012000 seconds.
+- Frame drawn at 0.029000 seconds.
+- Frame drawn at 0.045000 seconds.
+- Frame drawn at 0.061000 seconds.
+- 0.061000 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.27s
+Build styles took 0.01s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
