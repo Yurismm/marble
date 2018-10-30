@@ -199,7 +199,7 @@ label start:
             with Dissolve(.5)
             scene bg airport
 
-            "Flight 392. I need to remember this."
+            "The flight is at 1843. I need to remember this."
 
             "So many people here...It's overwhelming."
 
@@ -222,16 +222,16 @@ label start:
 
             menu:
 
-                "Flight 332":
+                "1834":
                     jump question1_a
 
-                "Flight 239":
+                "1846":
                     jump question1_a
 
-                "Flight 392":
+                "1843":
                     jump question1_b
 
-                "Flight 332":
+                "1823":
                     jump question1_a
 
             label question1_a:
