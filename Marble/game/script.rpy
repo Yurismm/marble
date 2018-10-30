@@ -236,7 +236,7 @@ label start:
 
             label question1_a:
 
-                m "I don't think that was my flight."
+                m "I don't think that was the time of my flight..."
 
                 jump question1_done
 
@@ -288,7 +288,7 @@ label start:
 
         scene breastscloseup
 
-        "S"
+        "S..."
 
         "SHIT"
 
@@ -298,7 +298,7 @@ label start:
 
         m " I'M SORRY, BUT YOU JUST BREACHED MY PERSONAL FUCKING SPAC-"
 
-        f "Shhh"
+        f "Shhh..."
 
         "I'm leaving, Fuck no."
 
@@ -333,6 +333,52 @@ label start:
             jump choiceb_done
 
         label choiceb_done
+
+        scene bg plane
+
+        "It's pretty crowded in here..."
+
+        scene bg back_of_a_seat
+
+        "I should probably listen to some music."
+
+        menu:
+
+            "Track 1":
+                jump choice_music_1
+
+            "Track 2":
+                jump choice_music_2
+
+            "Track 3":
+                jump choice_music_3
+
+            "Track 4":
+                jump choice_music_4
+
+        label choice_music_1:
+            # I haven't got the music for this yet, itll be provided by rxxx
+            jump choice_music_done
+
+        label choice_music_2:
+            # Same here uwu
+            jump choice_music_done
+
+        label choice_music_3:
+            # owo
+            jump choice_music_done
+
+        label choice_music_4:
+            # hmmmmmmmm
+            jump choice_music_done
+
+        label choice_music_done
+
+        "Finally"
+
+        "It's a good thing I decided to learn japanese."
+
+
 
 
 
