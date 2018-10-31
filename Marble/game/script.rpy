@@ -8,6 +8,7 @@ define r = Character("Richard")
 define m = Character("Mark")
 define i = Character("Irratated lady")
 define f = Character("Flight Assistant")
+define jf = Character("Japanese Flight Assistant")
 
 
 
@@ -380,7 +381,9 @@ label start:
 
             scene bg japanese_airport
 
-            m "こんにちは.{p=0.5}{alpha=.5}Hello/Hi.{/alpha}"
+            m "Konnichuwa.{p=0.5}{alpha=.5}Hello/Hi.{/alpha}"
+
+
 
 
 
