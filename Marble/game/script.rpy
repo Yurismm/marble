@@ -383,6 +383,12 @@ label start:
 
             m "Konnichuwa.{p=0.5}{alpha=.5}Hello/Hi.{/alpha}"
 
+            jf "Konbanwa. {p=0.5}{alpha=.5} Good evening/Afternoon{/alpha}"
+
+            jf "Sumimasen, demo fukuro wa motte kimashita ka? {p=0.5}{alpha=.5}Excuse me/Sorry, did you bring any bags?{/alpha}"
+
+
+
 
 
 
