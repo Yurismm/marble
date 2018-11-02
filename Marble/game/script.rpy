@@ -232,7 +232,7 @@ label start:
 
             "The machine successfully printed out my boarding pass."
 
-            "Flight 392. I need to remember this."
+            "The flight is at {b}1843{/b}. I need to remember this."
 
             "So many people here, it's overwhelming..."
 
