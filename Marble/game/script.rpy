@@ -9,7 +9,7 @@ define m = Character("Mark")
 define i = Character("Irratated lady")
 define f = Character("Flight Assistant")
 define jf = Character("Japanese Flight Assistant")
-define jt = Character
+define jt = Character("Japanese Taxi man")
 
 
 
