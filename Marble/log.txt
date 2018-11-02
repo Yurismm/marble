@@ -258,4 +258,7 @@ Total time until interface ready: 3.5529999733s
 Cleaning stores took 0.00s
 Init translation took 0.25s
 Build styles took 0.01s
-Load s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
