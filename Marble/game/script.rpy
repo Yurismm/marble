@@ -9,6 +9,7 @@ define m = Character("Mark")
 define i = Character("Irratated lady")
 define f = Character("Flight Assistant")
 define jf = Character("Japanese Flight Assistant")
+define jt = Character
 
 
 
@@ -377,6 +378,9 @@ label start:
 
             "I should probably listen to some music."
 
+            # This is the end of section 1.
+            # Here we start section 2.
+
         menu:
 
             "Track 1":
@@ -420,3 +424,17 @@ label start:
             jf "Konbanwa. {p=0.5}{alpha=.5} Good evening/Afternoon{/alpha}"
 
             jf "Sumimasen, demo fukuro wa motte kimashita ka? {p=0.5}{alpha=.5}Excuse me/Sorry, did you bring any bags?{/alpha}"
+
+            m "Iie. {p=0.5}{alpha=.5} No.{/alpha}"
+
+            jf "Sore wa sukoshi kimyoudesu. {p=0.5}{alpha=.5} That's a bit weird/queer.{/alpha}"
+
+            jf "Tonikaku, anata no taizai o o tanoshimi kudasai!. {p=0.5}{alpha=.5} Anyway, Enjoy your stay!{/alpha}"
+
+            m "Arigatou. {p=0.5}{alpha=.5} Thanks/ Thank you.{/alpha}"
+
+            scene bg japan_outside_airport
+
+            jt "Konnichuwa, Doko ni ikitai? {p=0.5}{alpha=.5} Hello/Hi, Where would you like to go?{/alpha}"
+
+            m "Rumerya Hotel"
