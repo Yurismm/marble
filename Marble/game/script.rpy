@@ -7,6 +7,8 @@ define k = Character("Karen")
 define r = Character("Richard")
 define m = Character("Mark")
 define i = Character("Irratated lady")
+define f = Character("Flight Assistant")
+define jf = Character("Japanese Flight Assistant")
 
 
 
