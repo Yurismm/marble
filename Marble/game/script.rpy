@@ -473,4 +473,96 @@ label start:
 
             jhc "Ah, Mark, Do you have a passport?"
 
-            m "Yes, i do.
+            m "Yes, i do."
+
+            m "Here"
+
+            scene Marks passport
+
+            jhc "Looks like you're all set to go."
+
+            scene hotelclerk
+
+            jhc "Here is the keys for going to the bar, for your unlimited drinks, for your room and for your garage"
+
+            jhc "To get a replacement, it will cost you 10 yen."
+
+            m "Alright."
+
+            jhc "You are in room 444."
+
+            m "Thanks."
+
+            scene bg hotel_room
+
+            "Looks awesome in here. It's 10 times as clean as it was in my apartment, too."
+
+            "I feel pretty tired..."
+
+            menu:
+
+                "Sleep?":
+                    jump choices_yes
+
+                "Look around?":
+                    jump choices_no
+
+            label choices_no:
+
+                "Alright, lets have an explore"
+
+                scene hotel_bathroom
+
+                "Looks pretty normal here..."
+
+                scene sink
+
+                "Just a toothbush... And some overpriced toothpaste.."
+
+                scene bathtub
+
+                "I think if i recall, this bathroom is made of marble."
+
+                "Pretty cool, I hope it's worth it later."
+
+                scene bed
+
+                "It's huge."
+
+                "I love it already"
+
+                "Looks pretty luxery..."
+
+                scene drawers
+
+                "I wonder what's in here..."
+
+                scene drawer_open
+
+                "{b}A gun??{/b}"
+
+                menu:
+
+                    "Report to hotel manager":
+                        jump subchoice_s_yes
+
+                    "Don't report.":
+                        jump subchoice_s_no
+
+                label subchoice_s_yes:
+
+                    "Alright, I'll do that when i'm going down to the grill."
+
+                    jump subchoice_s_done
+
+                label subchoice_s_no:
+
+                    "..."
+
+                    jump subchoice_s_done
+
+            label subchoice_s_done:
+
+                jump choice_s_done
+
+            label choice_s_done:
