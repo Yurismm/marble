@@ -9,7 +9,7 @@ define m = Character("Mark")
 define i = Character("Irratated lady")
 define f = Character("Flight Assistant")
 define jf = Character("Japanese Flight Assistant")
-define jt = Character("Japanese Taxi man")
+define jt = Character("Japanese Taxi Man")
 
 
 
@@ -442,3 +442,13 @@ label start:
             jt "Nani? {p=0.5}{alpha=.5} What?{/alpha}"
 
             m "Rumerya Hoteru, Gomen. {P=0.5}{alpha=.5} Rumerya Hotel, Sorry.{/alpha}"
+
+            jt "Hai. {p=0.5}{alpha=.5} Okay/Yes/Yeah.{/alpha}"
+
+            scene bg hotelfront
+
+            "This looks great... 4 stars in the review"
+
+            "I've wanted to go here for my whole life. Feel's worth it."
+
+            scene bg insideofhotel
