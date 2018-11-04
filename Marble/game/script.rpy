@@ -438,3 +438,7 @@ label start:
             jt "Konnichuwa, Doko ni ikitai? {p=0.5}{alpha=.5} Hello/Hi, Where would you like to go?{/alpha}"
 
             m "Rumerya Hotel"
+
+            jt "Nani? {p=0.5}{alpha=.5} What?{/alpha}"
+
+            m "Rumerya Hoteru, Gomen. {P=0.5}{alpha=.5} Rumerya Hotel, Sorry.{/alpha}
