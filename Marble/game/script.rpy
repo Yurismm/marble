@@ -443,7 +443,7 @@ label start:
 
             jt "Nani? {p=0.5}{alpha=.5} What?{/alpha}"
 
-            m "Rumerya Hoteru, Gomen. {P=0.5}{alpha=.5} Rumerya Hotel, Sorry.{/alpha}"
+            m "Rumerya Hoteru, Gomen. {p=0.5}{alpha=.5} Rumerya Hotel, Sorry.{/alpha}"
 
             jt "Hai. {p=0.5}{alpha=.5} Okay/Yes/Yeah.{/alpha}"
 
