@@ -10,6 +10,8 @@ define i = Character("Irratated lady")
 define f = Character("Flight Assistant")
 define jf = Character("Japanese Flight Assistant")
 define jt = Character("Japanese Taxi Man")
+define jhc = Character("Japanese Hotel Clerk")
+
 
 
 
@@ -449,6 +451,26 @@ label start:
 
             "This looks great... 4 stars in the review"
 
-            "I've wanted to go here for my whole life. Feel's worth it."
+            "I've wanted to go here for my whole life. Feels worth it."
 
             scene bg insideofhotel
+
+            "Looks pretty good..."
+
+            "We'll see if the rooms are as good, though"
+
+            scene hotelclerk
+
+            jhc "Konbanwa. English? {p=0.5}{alpha=.5} Evening. English?{/alpha}"
+
+            m "Evening. English please."
+
+            jhc "Do you have a reservation number?"
+
+            m "Yeah, I do."
+
+            m "It's 13012018"
+
+            jhc "Ah, Mark, Do you have a passport?"
+
+            m "Yes, i do.
