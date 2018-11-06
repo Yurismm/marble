@@ -563,6 +563,34 @@ label start:
 
             label subchoice_s_done:
 
-                jump choice_s_done
+                "I wonder what that was doing there..."
 
-            label choice_s_done:
+                jump choices_done
+
+            label choices_yes:
+
+                "That was a great sleep"
+
+                "Wait..."
+
+                "What's that sticking out of the drawer?"
+
+                scene drawer_butitshalfopenwow
+
+                "Uh"
+
+                scene drawer_open
+
+                "{b} A gun?{/b}"
+
+                "..."
+
+                jump choices_done
+
+        label choices_done:
+
+            "..."
+
+            "I think i'll just go to the grill."
+
+            "It'll improve my mood... Hopefully at least."
