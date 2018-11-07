@@ -594,3 +594,25 @@ label start:
             "I think i'll just go to the grill."
 
             "It'll improve my mood... Hopefully at least."
+
+            scene stairs
+
+            "..."
+
+            "Why was that there, anyway."
+
+            "Stupid things ruining my mood."
+
+            "First she dies then..."
+
+            "Ugh. That's not the point."
+
+            "I just want to stop thinking."
+
+            scene hotel_inside
+
+            m "Arigatou. {p=0.5}{alpha=.5} Thanks/Thank you.{/alpha}"
+
+            scene outside hotel
+
+            "I don't feel like getting a taxi, so i'll walk it."
