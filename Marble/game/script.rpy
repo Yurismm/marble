@@ -2,6 +2,9 @@
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
+# There are a lot of grammar errors here, im just pretty tired
+# I'm  sure any scripters will find them and fix them for me <3
+
 
 define k = Character("Karen")
 define r = Character("Richard")
@@ -11,6 +14,8 @@ define f = Character("Flight Assistant")
 define jf = Character("Japanese Flight Assistant")
 define jt = Character("Japanese Taxi Man")
 define jhc = Character("Japanese Hotel Clerk")
+define sp = Character("Loud Speaker")
+define af = Character("On Board Flight Assistant")
 
 
 
@@ -275,6 +280,66 @@ label start:
             label question1_a:
 
                 m "I don't think that was the time of my flight..."
+
+                m "Fuck. I'm late."
+
+                m "Fuck fuck fuck fuck"
+
+                #He misses the flight here, i had a sudden idea right now so this is kinda weird lmao
+
+                m "I missed it..."
+
+                m "Fuck"
+
+                "Fuck..."
+
+                scene airport_waiting
+
+                "I've been waiting for ages."
+
+                "When is this flight damn it.."
+
+                sp "Flight 138 has been delayed."
+
+                sp "Due to... (insert some reason here for me pls)"
+
+                #this reason needs to be a bad thing so that it has damaged the plane in some way
+
+                sp "Oh wait."
+
+                sp "Nevermind, It will be on time."
+
+                "Perfect..."
+
+                #this is choppy, please add more stuff and dialog to make it more smooth, ann
+
+                scene bg plane
+
+                "Finally I can sit down and relax."
+
+                scene 1hourlater
+
+                scene bg plane
+
+                af "Sorry to bother everyone, But there seems to be an emergency which needs your attention."
+
+                af "There is a problem with the right wing of the plane"
+
+                af "We need you all to follow the intructions in front of you."
+
+                af "The pilots will be making an emergency stop."
+
+
+
+
+
+
+
+
+
+
+
+
 
                 jump question1_done
 
@@ -616,3 +681,9 @@ label start:
             scene outside hotel
 
             "I don't feel like getting a taxi, so i'll walk it."
+
+            "I wonder what the hell that was anyway"
+
+            "Who on earth leaves a gun right there in a hotel.."
+
+            "It's fucking mad.."
