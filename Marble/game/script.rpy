@@ -329,6 +329,16 @@ label start:
 
                 af "The pilots will be making an emergency stop."
 
+                af "We need all those on the left of the plane to move to the right."
+
+                "Ugh... Perfect."
+
+                af "We will be stopping in spain"
+
+                "I don't even speak spanish"
+
+
+
 
 
 
