@@ -337,6 +337,13 @@ label start:
 
                 "I don't even speak spanish"
 
+                "This is crazy."
+
+                af "We will be assuming brace position"
+
+
+
+
 
 
 
