@@ -704,3 +704,13 @@ label start:
             "Who on earth leaves a gun right there in a hotel.."
 
             "It's fucking mad.."
+
+            "Where is this place anyway..."
+
+            "I don't even need to get there on time. I came alone."
+
+            "Fucking..."
+
+            "Nevermind..."
+
+            "..."
