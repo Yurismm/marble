@@ -341,6 +341,12 @@ label start:
 
                 af "We will be assuming brace position"
 
+                "Why the fuck would we be doing that? It not eve-"
+
+                af "Alright, the plane will be attempting to land in 10 minutes."
+
+
+
 
 
 
@@ -714,3 +720,27 @@ label start:
             "Nevermind..."
 
             "..."
+
+            "Fuck it."
+
+            "I'll have the best time ever."
+
+            "Fuck Richard"
+
+            "Fuck Karen"
+
+            "Fuck all of them."
+
+            "I'll have a great day today."
+
+            scene bg boi_da_stripclub
+
+            "Here we are..."
+
+            "Finally..."
+
+            "It's loud as fuck and I can't hear my thoughts."
+
+            "So calming."
+
+            "So fun."
