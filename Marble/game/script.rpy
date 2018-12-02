@@ -345,6 +345,10 @@ label start:
 
                 af "Alright, the plane will be attempting to land in 10 minutes."
 
+                "What???"
+
+
+
 
 
 
@@ -744,3 +748,11 @@ label start:
             "So calming."
 
             "So fun."
+
+            "I'll drink the pain away."
+
+            "Alcohol."
+
+            "My Best friend."
+
+            "The hand that keeps lending."
