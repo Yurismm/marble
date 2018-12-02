@@ -706,3 +706,5 @@ label start:
             m "I'll win though"
 
             m "You'll watch me win"
+
+            hk "Oh, lets see who the true lightweight is"
