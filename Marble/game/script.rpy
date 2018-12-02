@@ -16,6 +16,7 @@ define jt = Character("Japanese Taxi Man")
 define jhc = Character("Japanese Hotel Clerk")
 define sp = Character("Loud Speaker")
 define af = Character("On Board Flight Assistant")
+define hk = Character("Hazel Kate")
 
 
 
@@ -729,9 +730,9 @@ label start:
 
             "I'll have the best time ever."
 
-            "Fuck Richard"
+            "Fuck Richard."
 
-            "Fuck Karen"
+            "Fuck Karen."
 
             "Fuck all of them."
 
@@ -756,3 +757,37 @@ label start:
             "My Best friend."
 
             "The hand that keeps lending."
+
+            "It's loud."
+
+            "Better find a good reason to dr-"
+
+            hk "Sorry! I wasn't looking where I was going!"
+
+            m "No, no It's oka-"
+
+            hk "You're from england?"
+
+            m "Y-yeah? I am."
+
+            hk "Wellllllll lets settle this in a drinking battle!"
+
+            "I can't say no to this..."
+
+            m "Wha- Why?"
+
+            hk "Come on, ya can't tell me you don't want to drink too?"
+
+            "Damn it she read my mind."
+
+            m "Yeah but, when did this become a battle?"
+
+            hk "As soon as you told me you were from england"
+
+            "I'll just cave in."
+
+            m "Alright."
+
+            m "I'll win though"
+
+            m "You'll watch me win"
