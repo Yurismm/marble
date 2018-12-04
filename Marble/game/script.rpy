@@ -707,4 +707,18 @@ label start:
 
             m "You'll watch me win"
 
-            hk "Oh, lets see who the true lightweight is"
+            hk "Oh, lets see who the true lightweight is..."
+
+            "She's in for a surprise."
+
+            "I've drank all the time."
+
+            "Best thing in my life."
+
+            "Seems to make it better only..."
+
+            "More lonely."
+
+            "This time it'll be different."
+
+            "..."
