@@ -17,6 +17,7 @@ define jhc = Character("Japanese Hotel Clerk")
 define sp = Character("Loud Speaker")
 define af = Character("On Board Flight Assistant")
 define hk = Character("Hazel Kate")
+define jb = Character("Japanese Bartender")
 
 
 
@@ -722,3 +723,15 @@ label start:
             "This time it'll be different."
 
             "..."
+
+            scene 5_shots_later
+
+            m "I-I'm still standing"
+
+            hk "Doesn't sound like it"
+
+            m "W-w-watch me"
+
+            hk "Alright..."
+
+            hk "BARTENDER! GET US 3 MORE SHOTS OF UNICORN TEARS"
