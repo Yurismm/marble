@@ -1,17 +1,17 @@
-Sun Dec 02 01:01:56 2018
+Mon Jan 14 21:28:47 2019
 Windows-7-6.1.7601-SP1
 Ren'Py 7.1.1.929
  
 
-Bootstrap to the start of init.init took 0.12s
+Bootstrap to the start of init.init took 0.11s
 Early init took 0.01s
-Loader init took 0.16s
+Loader init took 0.14s
 Loading error handling took 0.10s
-Loading script took 0.59s
-Loading save slot metadata. took 0.39s
+Loading script took 0.49s
+Loading save slot metadata. took 0.25s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.24s
+Running init code took 0.23s
 Loading analysis data took 0.04s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -21,13 +21,13 @@ Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
 DPI scale factor: 1.000000
-Creating interface object took 0.14s
+Creating interface object took 0.23s
 Cleaning stores took 0.00s
-Init translation took 0.05s
+Init translation took 0.04s
 Build styles took 0.01s
-Load screen analysis took 0.02s
-Analyze screens took 0.03s
-Save screen analysis took 0.10s
+Load screen analysis took 0.08s
+Analyze screens took 0.05s
+Save screen analysis took 0.20s
 Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.09s
@@ -247,18 +247,13 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 3.44800019264s
+controller: '78696e70757401000000000000000000' 'XInput Controller' 1L
+controller: '4c05c405000000000000504944564944' 'PS4 Controller' 1L
+Total time until interface ready: 3.74300003052s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.014000 seconds.
-- Frame drawn at 0.033000 seconds.
-- Frame drawn at 0.046000 seconds.
-- Frame drawn at 0.062000 seconds.
-- 0.062000 seconds to render 5 frames.
-Cleaning stores took 0.00s
-Init translation took 0.30s
-Build styles took 0.01s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
+- Frame drawn at 0.027000 seconds.
+- Frame drawn at 0.069000 seconds.
+- Frame drawn at 0.082000 seconds.
+- Frame drawn at 0.107000 seconds.
+- 0.107000 seconds to render 5 frames.
