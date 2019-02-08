@@ -735,3 +735,39 @@ label start:
             hk "Alright..."
 
             hk "BARTENDER! GET US 3 MORE SHOTS OF UNICORN TEARS"
+
+            m "No... I can't d-drink more"
+
+            hk "What? Why?"
+
+            m "I feel... Sick."
+
+            hk "Alright."
+
+            m "H-how do you drink this much..."
+
+            hk "I have experience."
+
+            m "Oh... O-okay."
+
+            hk "I'll take you to your hotel."
+
+            m "R-r-"
+
+            hk "Rumerya Hotel. I know."
+
+            m "H-h-how?"
+
+            "My vision started to fade away."
+
+            "The world started spinning slowly."
+
+            "I felt my body going limp."
+
+            hk "Mark?"
+
+            hk "Mark...?"
+
+            "Her words faded away from me. I tried to focus on her tender voice."
+
+            m "     "
