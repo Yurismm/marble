@@ -1,39 +1,39 @@
-Mon Jan 14 21:28:47 2019
+Fri Feb 08 17:40:44 2019
 Windows-7-6.1.7601-SP1
 Ren'Py 7.1.1.929
  
 
 Bootstrap to the start of init.init took 0.11s
 Early init took 0.01s
-Loader init took 0.14s
-Loading error handling took 0.10s
-Loading script took 0.49s
-Loading save slot metadata. took 0.25s
+Loader init took 0.17s
+Loading error handling took 0.06s
+Loading script took 0.55s
+Loading save slot metadata. took 0.30s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.23s
-Loading analysis data took 0.04s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Student01\\AppData\\Roaming/RenPy/backups\\Marble':
-Dump and make backups. took 0.15s
+Dump and make backups. took 0.12s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
 DPI scale factor: 1.000000
-Creating interface object took 0.23s
+Creating interface object took 0.31s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.01s
-Load screen analysis took 0.08s
-Analyze screens took 0.05s
-Save screen analysis took 0.20s
-Prepare screens took 0.11s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.10s
+Prepare screens took 0.13s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.09s
+Save bytecode. took 0.12s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.03s
+Interface start took 0.04s
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
@@ -247,13 +247,18 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-controller: '78696e70757401000000000000000000' 'XInput Controller' 1L
-controller: '4c05c405000000000000504944564944' 'PS4 Controller' 1L
-Total time until interface ready: 3.74300003052s
+Total time until interface ready: 3.34499979019s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.027000 seconds.
-- Frame drawn at 0.069000 seconds.
-- Frame drawn at 0.082000 seconds.
-- Frame drawn at 0.107000 seconds.
-- 0.107000 seconds to render 5 frames.
+- Frame drawn at 0.012000 seconds.
+- Frame drawn at 0.043000 seconds.
+- Frame drawn at 0.074000 seconds.
+- Frame drawn at 0.093000 seconds.
+- 0.093000 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.27s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

@@ -771,3 +771,73 @@ label start:
             "Her words faded away from me. I tried to focus on her tender voice."
 
             m "     "
+
+            "     "
+
+            menu:
+                "Wake up?":
+                    jump choices_woken_up
+
+                "Stay here?":
+                    jump choices_slept_in
+
+
+            label choices_slept_in:
+
+                "Just."
+
+                "Whatever."
+
+                "Who cares anyway."
+
+                "I wonder if she took my to my hotel..."
+
+                "Drinking problems."
+
+                "Started when I was 14."
+
+                "It was a hard life back then."
+
+                "It was hard to wake up."
+
+                "All the time, I just couldn't do it anymore."
+
+                "If it wasn't for my friends and ex, I would have lost it all."
+
+                "Ugh. My foot really hurts."
+
+                jump choices_slept_done
+
+            label choices_woken_up:
+
+                "Ugh. My foot really hurts."
+
+                jump choices_slept_done
+
+            label choices_slept_done:
+
+                hk "Mark?"
+
+                hk "Are you okay?"
+
+                m "..."
+
+                m "What happened?"
+
+                hk "You kinda..."
+
+                hk "Passed out..."
+
+                hk "..."
+
+                m "Why didn't you call an ambulence?"
+
+                hk "What do you mean?"
+
+                m "Well, I'm in my hotel room."
+
+                hk "Yeah? Your point is?"
+
+                m "You're a stranger."
+
+                m "You shouldn't be able to know where my hotel is, let alone know that I'm currently sleeping in a hotel."
