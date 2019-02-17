@@ -841,3 +841,76 @@ label start:
                 m "You're a stranger."
 
                 m "You shouldn't be able to know where my hotel is, let alone know that I'm currently sleeping in a hotel."
+
+                hk "You told me."
+
+                m "What?"
+
+                m "When?"
+
+                hk "While we were drinking?"
+
+                m "No. I didn't."
+
+                hk "You did."
+
+                m "I didn't."
+
+                "What the hell? Is she fucking joking?"
+
+                hk "Whatever."
+
+                hk "I honestly thought you'd be more nice to be honest."
+
+                hk "I could have just left you there."
+
+                hk "Drunk."
+
+                m "..."
+
+                m "You're not any better."
+
+                hk "Fuck off."
+
+                "She's a stalker."
+
+                "People get angry when they're lying..."
+
+                "I just need to catch her up..."
+
+                menu:
+
+                    "I can't remember well. I think I took a taxi to the bar...":
+                        jump choicech_n1
+
+                    "My full name? I need it to go check something down in the bank.":
+                        jump choicech_n2
+
+                    "How many toes do I have?":
+                        jump choicech_y
+
+                label choicech_y:
+
+                    m "How many toes do I have on each foot?"
+
+                    hk "Easy."
+
+                    hk "6"
+
+                    "..."
+
+                    m "..."
+
+                    m "How did you find that out?"
+
+                    hk "Just a lucky guess..."
+
+                    m "That's not a lucky guess."
+
+                    m "You'd only know I had 6 toes if you had been stalking my social media."
+
+                    m "And I only posted about it on one of my social media pages."
+
+                    m "Which was MySpace."
+
+                    m "..."
